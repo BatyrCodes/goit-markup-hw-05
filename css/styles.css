@@ -430,6 +430,62 @@ a {
 .link-add-hover:hover, .link-add-hover:focus{
     background-color: #31d0aa;
 }
+.wrapper-footer-subscribe {
+    margin-left:80px;
+}
+.subscribe-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.subscribe-form {
+    
+}
+.subscribe-label {
+    display: flex;
+    gap: 24px;
+}
+.subscribe-input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #2e2f42;
+    padding: 16px 8px;
+
+
+    font-weight: 400;
+    font-size: 12px; 
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+.subscribe-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+.subscribe-svg {
+    margin-left: 16px; 
+    margin-right: 24px; 
+    fill: #fff;
+}
+
 /* #endregion Footer */
 
 /* #region Backdrop */

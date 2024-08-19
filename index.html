@@ -490,7 +490,13 @@
           <div class="form-wrapper">
             <label class="modal-name" for="user-phone">Phone</label>
             <div class="modal-content-input">
-              <input id="user-phone" required class="modal-input" type="tel" />
+              <input
+                id="user-phone"
+                required
+                class="modal-input"
+                type="tel"
+                name="user-phone"
+              />
               <svg width="13" height="13" class="modal-icon-input">
                 <use href="./images/icons.svg#icon-phone" />
               </svg>
@@ -505,6 +511,7 @@
                 required
                 class="modal-input"
                 type="email"
+                name="user-email"
               />
               <svg width="15" height="12" class="modal-icon-input">
                 <use href="./images/icons.svg#icon-mail" />
@@ -517,6 +524,7 @@
               class="modal-comet-text"
               id="text-are"
               placeholder="Text input"
+              name="user-text"
             ></textarea>
           </div>
           <div class="modal-click-checkbox">

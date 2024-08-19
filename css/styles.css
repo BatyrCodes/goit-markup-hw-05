@@ -442,7 +442,8 @@ a {
     margin-bottom: 16px;
 }
 .subscribe-form {
-    
+    display: flex;
+    gap: 24px;
 }
 .subscribe-label {
     display: flex;
@@ -455,9 +456,9 @@ a {
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #2e2f42;
-    padding: 16px 8px;
+    padding-left: 16px;
 
-
+    background-color: transparent; 
     font-weight: 400;
     font-size: 12px; 
     line-height: 2;

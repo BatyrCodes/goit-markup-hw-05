@@ -1,47 +1,42 @@
-Web Studio Landing Page
-This is a modern, responsive landing page for a digital web studio. It features a clean design with Google Fonts, normalized CSS, and includes sections such as header navigation, a main hero section with a call-to-action button, a footer with social media links, and a modal contact form.
+# Web Studio Landing Page
 
-Features
-Responsive header with logo and navigation menu
+A modern, responsive landing page for a digital web studio. Featuring a clean, minimalistic design with Google Fonts and normalized CSS. The page includes a header with navigation and contact info, a hero section with a call-to-action, a footer with social media links, and an accessible modal contact form.
 
-Contact info in the header (email, phone)
+---
 
-Hero section with a strong headline and “Order Service” button that opens a modal
+## Features
 
-Footer with social media icons and subscription form
+- **Responsive Header:** Logo, navigation menu, and contact info (email, phone).  
+- **Hero Section:** Strong headline with an “Order Service” button that triggers the modal popup.  
+- **Footer:** Social media icons and a subscription form.  
+- **Accessible Modal Popup:** Contact form with fields for name, phone, email, comment, and a privacy acceptance checkbox.  
+- **SVG Icons:** Used via external sprite sheet for optimized performance.  
+- **Cross-Browser Consistency:** Powered by `normalize.css`.  
+- **Google Fonts:** Raleway and Roboto for elegant typography.  
+- **External JS & CSS:** Modal functionality separated in `modal.js` and CSS files.
 
-Accessible modal popup with contact form including name, phone, email, comment, and privacy acceptance checkbox
+---
 
-SVG icons used via external sprite sheet
+## Modal Component
 
-Uses normalize.css for cross-browser consistency
+A stylish and responsive modal window featuring smooth backdrop and animation effects.
 
-Google Fonts: Raleway and Roboto
+### Features
 
-External CSS and JavaScript file (modal.js) for modal functionality
+- Fullscreen semi-transparent backdrop with fade animation  
+- Centered modal with scale and slide effects  
+- Accessible close button with hover and focus styles  
+- Styled inputs and checkboxes with focus feedback  
+- Simple JavaScript toggle for open/close functionality  
 
-Modal Component
-A stylish and responsive modal window with a smooth backdrop and animation.
+---
 
-Features
-Fullscreen semi-transparent backdrop with fade animation
+## Usage
 
-Centered modal with scale and slide effects
+1. Include the CSS styles in your project.  
+2. Use the following HTML markup with the appropriate `data-` attributes:  
 
-Accessible close button with hover and focus styles
-
-Styled inputs and checkboxes with focus feedback
-
-Simple JS toggle for open/close functionality
-
-Usage
-Add the CSS styles to your project.
-
-Use HTML markup with data-modal-open, data-modal-close, and data-modal attributes.
-
-Include the JS script to handle modal toggling.
-
-
+```html
 <button data-modal-open>Open Modal</button>
 
 <div class="backdrop" data-modal>
